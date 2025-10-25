@@ -1,3 +1,12 @@
+--------------------------------------
+--- Patch.css
+--------------------------------------
+
+
+* {
+    scrollbar-width: none;
+}
+
 #logo {
     display: none;
 }
@@ -17,7 +26,7 @@
 }
 
 #userinfo_stats a:hover .stat {
-    color: #30383c;
+    color: #30383c !important;
 }
 
 #searchbars {
@@ -39,20 +48,40 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    -webkit-border-radius: 7px !important;
-    -moz-border-radius: 7px !important;
     border-radius: 7px !important;
     margin-top: 0px !important;
     font-size: x-small;
+}
+
+td a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+.head {
+    background: #19375d !important;
+    border-bottom: #c8c8c8a3 1px solid !important;
 }
 
 .colhead_dark {
     background: #19375d !important;
 }
 
+.box {
+    border-radius: 5px;
+}
+
+.sidebar .box {
+    margin: 0px 5px 10px 5px;
+}
+
+.pad {
+    font-family: Verdana, Helvetica, sans-serif !important; 
+}
 
 
-
+--------------------------------------
+--- Beyond_fixed.css
+--------------------------------------
 
 
 
